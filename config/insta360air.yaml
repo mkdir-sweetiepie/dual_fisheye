@@ -1,0 +1,16 @@
+/**:
+    ros__parameters:
+      camera_name: "insta360air"
+      topic: "/camera/image_raw"
+      device: "/dev/insta360air"
+      frame_id: "camera"
+      resolution: "1472x736"
+      split_resolution: 736x736
+      fps: 30.0
+      format: "MJPEG" 
+      brightness: -1
+      contrast: -1
+      saturation: -1
+      hue: -1
+      gamma: -1
+      sharpness: -1

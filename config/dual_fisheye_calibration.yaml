@@ -1,0 +1,25 @@
+/**:
+  ros__parameters:
+    img_width: 736
+    img_height: 736
+
+    camera_matrix_rows: 3
+    camera_matrix_cols: 3
+    dist_coeffs_rows: 1
+    dist_coeffs_cols: 4
+
+    # 왼쪽 카메라 파라미터
+    left_camera_matrix: [234.145229, 0.330551, 370.627918, 0.000000, 236.049533, 364.741985, 0.000000, 0.000000, 1.000000 ]
+
+    left_dist_coeffs: [-0.022016, -0.006007, 0.001086, -0.000218]
+
+    # 오른쪽 카메라 파라미터
+    right_camera_matrix: [234.145229, 0.330551, 370.627918, 0.000000, 236.049533, 364.741985, 0.000000, 0.000000, 1.000000]
+
+    right_dist_coeffs: [-0.022016, -0.006007, 0.001086, -0.000218]
+
+    # 토픽 이름 설정
+    left_img_topic: "/insta360air/left/camera/image_raw"
+    left_calibrated_topic: "/insta360air/left/image_calibrated"
+    right_img_topic: "/insta360air/right/camera/image_raw"
+    right_calibrated_topic: "/insta360air/right/image_calibrated"
